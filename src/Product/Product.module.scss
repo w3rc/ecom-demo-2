@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	flex-flow: column;
-	max-width: 350px;
+	max-width: 400px;
 	box-shadow: 2px 2px 1px 0 #ddd, -2px -2px 1px 0 #ddd;
 	margin: 40px;
 	padding: 20px;
@@ -127,5 +127,13 @@
 		outline: 0;
 		color: #fff;
 		cursor: pointer;
+	}
+}
+
+
+
+@media (max-width: 900px) {
+	.Product {
+		margin: 10px;
 	}
 }

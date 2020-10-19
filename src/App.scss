@@ -1,7 +1,13 @@
 .App {
 	display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: auto;
-  max-width: 85%;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: auto;
+	max-width: 85%;
+}
+
+@media (max-width: 900px) {
+	.App {
+		max-width: 100%;
+	}
 }
